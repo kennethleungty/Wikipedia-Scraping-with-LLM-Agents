@@ -1,0 +1,32 @@
+song,artist,output,cost
+Shape Of You,Ed Sheeran,"
+{
+  ""Songwriters"": ""Ed Sheeran, Steve Mac, Johnny McDaid, Kandi Burruss, Tameka 'Tiny' Cottle, Kevin 'She'kspere' Briggs"",
+  ""Producers"": ""Ed Sheeran, Steve Mac"",
+  ""Label"": ""Atlantic Records"",
+  ""Genre"": ""Dancehall, R&B-infused Pop"",
+  ""Main Language"": ""English""
+}",0.001578
+Despacito,Luis Fonsi & Daddy Yankee,"
+{
+  ""Songwriters"": ""Luis Fonsi, Erika Ender, Daddy Yankee"",
+  ""Producers"": ""Mauricio Rengifo, Andrés Torres"",
+  ""Label"": ""Universal Music Latino"",
+  ""Genre"": ""Reggaeton, Latin pop"",
+  ""Main Language"": ""Spanish""
+}",0.001666
+Perfect,Ed Sheeran,"{
+  ""Songwriters"": ""Ed Sheeran"",
+  ""Producers"": ""Ed Sheeran, Will Hicks"",
+  ""Label"": ""Asylum, Atlantic Records"",
+  ""Genre"": ""Pop, Ballad"",
+  ""Main Language"": ""English""
+}",0.027494
+Uptown Funk,Mark Ronson & Bruno Mars,"
+{
+  ""Songwriters"": ""Mark Ronson, Bruno Mars, Jeff Bhasker, Philip Lawrence"",
+  ""Producers"": ""Mark Ronson, Bruno Mars, Jeff Bhasker"",
+  ""Label"": ""RCA Records"",
+  ""Genre"": ""Funk-Pop, Soul, Boogie, Disco-Pop, Minneapolis Sound"",
+  ""Main Language"": ""English""
+}",0.001685
