@@ -7,7 +7,7 @@ Example:
 'label': 'Sony Music',
 'language': 'Korean'
 'producers': 'Alex Boh, Betty, Germaine',
-'songwriters': 'John Johnson, Adam Smith',
+'songwriters': 'John Johnson, Adam Smith'
 """
 
 
@@ -26,7 +26,7 @@ def generate_input_prompt(song, artist):
 
     If you do not know the answer to any of these questions, return the answer as 'Unknown'. Do not make up any answers.
 
-    Output the above answer strictly in JSON format enclosed with curly brackets.
+    Output the above answer strictly in JSON format enclosed with curly brackets. Do not include anything like ```json in the output.
     """
 
     return input_prompt
