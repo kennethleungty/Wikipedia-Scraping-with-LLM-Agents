@@ -1,32 +1,7 @@
-song,artist,output,cost
-Shape Of You,Ed Sheeran,"
-{
-  ""Songwriters"": ""Ed Sheeran, Steve Mac, Johnny McDaid, Kandi Burruss, Tameka 'Tiny' Cottle, Kevin 'She'kspere' Briggs"",
-  ""Producers"": ""Ed Sheeran, Steve Mac"",
-  ""Label"": ""Atlantic Records"",
-  ""Genre"": ""Dancehall, R&B-infused Pop"",
-  ""Main Language"": ""English""
-}",0.001578
-Despacito,Luis Fonsi & Daddy Yankee,"
-{
-  ""Songwriters"": ""Luis Fonsi, Erika Ender, Daddy Yankee"",
-  ""Producers"": ""Mauricio Rengifo, Andrés Torres"",
-  ""Label"": ""Universal Music Latino"",
-  ""Genre"": ""Reggaeton, Latin pop"",
-  ""Main Language"": ""Spanish""
-}",0.001666
-Perfect,Ed Sheeran,"{
-  ""Songwriters"": ""Ed Sheeran"",
-  ""Producers"": ""Ed Sheeran, Will Hicks"",
-  ""Label"": ""Asylum, Atlantic Records"",
-  ""Genre"": ""Pop, Ballad"",
-  ""Main Language"": ""English""
-}",0.027494
-Uptown Funk,Mark Ronson & Bruno Mars,"
-{
-  ""Songwriters"": ""Mark Ronson, Bruno Mars, Jeff Bhasker, Philip Lawrence"",
-  ""Producers"": ""Mark Ronson, Bruno Mars, Jeff Bhasker"",
-  ""Label"": ""RCA Records"",
-  ""Genre"": ""Funk-Pop, Soul, Boogie, Disco-Pop, Minneapolis Sound"",
-  ""Main Language"": ""English""
-}",0.001685
+artist,song,genre,label,language,llm_cost,llm_tokens,producers,songwriters
+Ed Sheeran,Shape Of You,"Dancehall, R&B-infused Pop",Unknown,English,0.001798,1693,"Ed Sheeran, Steve Mac","Ed Sheeran, Steve Mac, Johnny McDaid, Kandi Burruss, Tameka 'Tiny' Cottle, Kevin 'She'kspere' Briggs"
+Luis Fonsi & Daddy Yankee,Despacito,"Reggaeton, Latin Pop",Universal Music Latin Entertainment,Spanish,0.001732,1646,"Mauricio Rengifo, Andrés Torres","Luis Fonsi, Erika Ender, Daddy Yankee"
+Ed Sheeran,Perfect,Pop,Asylum Records,English,0.007363000000000001,7253,"Ed Sheeran, Will Hicks",Ed Sheeran
+Mark Ronson & Bruno Mars,Uptown Funk,"Funk-Pop, Soul, Boogie, Disco-Pop, Minneapolis Sound",Unknown,English,0.001745,1649,"Mark Ronson, Jeff Bhasker, Philip Lawrence","Mark Ronson, Bruno Mars, Jeff Bhasker, Philip Lawrence"
+Pharrell Williams,Happy,"Soul, Neo Soul","Columbia Records, a division of Sony Music",English,0.00723,7114,Pharrell Williams,Pharrell Williams
+Adele,Rolling In The Deep,"Dark Blues, Gospel, Disco",Unknown,English,0.0016870000000000001,1617,Unknown,"Adele, Paul Epworth"
