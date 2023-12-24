@@ -15,6 +15,7 @@ from src.agents import create_agent_executor
 from src.llm import llm
 from src.tools import wikipedia_tool
 from src.prompts import system_prompt, generate_input_prompt
+from src.utils import default_values
 
 
 with open("config/config.yaml", "r", encoding="utf8") as ymlfile:
@@ -38,7 +39,9 @@ agent_executor = create_agent_executor(
 )
 
 
-@retry(stop=stop_after_attempt(5), wait=wait_fixed(30))
+@retry(
+    stop=stop_after_attempt(2), wait=wait_fixed(10), retry_error_callback=default_values
+)
 def execute_web_scraping(
     input_file_path: str = cfg.INPUT_FILE, output_file_path: str = cfg.OUTPUT_FILE
 ):
