@@ -38,7 +38,7 @@ agent_executor = create_agent_executor(
 )
 
 
-@retry(stop=stop_after_attempt(5), wait=wait_fixed(5))
+@retry(stop=stop_after_attempt(5), wait=wait_fixed(30))
 def execute_web_scraping(
     input_file_path: str = cfg.INPUT_FILE, output_file_path: str = cfg.OUTPUT_FILE
 ):

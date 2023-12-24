@@ -15,6 +15,8 @@ def create_agent_executor(prompt, llm_with_tools, tools):
         | llm_with_tools
         | OpenAIFunctionsAgentOutputParser()
     )
-    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+    agent_executor = AgentExecutor(
+        agent=agent, tools=tools, max_iterations=40, verbose=True
+    )
 
     return agent_executor
