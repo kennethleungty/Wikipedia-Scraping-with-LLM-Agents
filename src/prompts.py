@@ -11,11 +11,10 @@ Example:
 """
 
 
-def generate_input_prompt(song, artist):
+def generate_input_prompt(song: str, artist: str) -> str:
     input_prompt = f"""
     This is the song to review:
-    - Song title: {song}
-    - Performing Artist: {artist}
+    - Song title: {song}, performed by {artist}
 
     Based on the above song information, accurately answer the following questions in order:
     - What is the genre of the song?
