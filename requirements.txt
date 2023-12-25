@@ -1,10 +1,10 @@
-duckduckgo-search==3.9.8
+duckduckgo-search==4.1.1
 langchain==0.0.352
 matplotlib>=3.8.0
-openai>=0.27.7
+openai>=1.6.1
 openpyxl>=3.1.2
-pandas>=2.1.1
+pandas>=2.1.4
 python-box>=7.1.1
 python-dotenv>=1.0.0
-xlsxwriter>=3.1.9
 wikipedia>=1.4.0
+xlsxwriter>=3.1.9
