@@ -1,6 +1,6 @@
 ENVDIR: '.env'
 INPUT_FILE: 'data/input/chart2000-song-2010-decade-0-3-0070.csv'
 MODEL_NAME: 'gpt-3.5-turbo-1106'
-SEED: 42
+SEED: 0
 TEMPERATURE: 0
 OUTPUT_FILE: 'data/output/songs_metadata.csv'
