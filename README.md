@@ -1,4 +1,4 @@
-# How to Scrape Wikipedia with LLMs
+# How to Scrape Wikipedia with LLM Agents
 ## Combining LangChain's agents and tools with OpenAI's LLMs and function calling for the web scraping of Wikipedia
 
 Link to step-by-step guide: *Coming Soon*
