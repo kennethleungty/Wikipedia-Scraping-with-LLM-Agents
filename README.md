@@ -1,7 +1,7 @@
 # How to Scrape Wikipedia with LLM Agents
 ## Combining LangChain's agents and tools with OpenAI's LLMs and function calling for the web scraping of Wikipedia
 
-Link to step-by-step guide: *Coming Soon*
+Link to step-by-step guide: https://medium.com/datadriveninvestor/how-to-web-scrape-wikipedia-using-llm-agents-f0dba8400692
 
 ### Context
 - The task of web scraping Wikipedia is a highly useful technique for extracting valuable information, thanks to its vast collection of structured and unstructured data. 
